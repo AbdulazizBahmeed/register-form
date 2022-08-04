@@ -199,21 +199,7 @@ button:hover{
   min-width: 35%;
 }
 
-@media only screen and (max-width: 480px) {
-  *{
-    font-size: 20px;
-  }
-  #credit{
-    margin-top: 8%;
-  }
-  #creditText{
-    font-size: 0.2rem;
-    min-width: 95%;
-  }
-  #creditButton{
-    font-size: 0.2rem;
-  }
-}
+
 @media only screen and (max-width: 600px) {
   * {
     font-size: 30px;
@@ -235,15 +221,15 @@ button:hover{
   }
   #description{
     width:90%;
-    margin-top: 6%;
+    margin-top: 10%;
   }
   form{
-    margin-top: 6%;
+    margin-top: 10%;
     width: 90%;
     min-height: 350px;
   }
   #credit{
-    margin-top: 3%;
+    margin-top: 10%;
     min-width: 30%;
   }
   #creditText{
@@ -252,5 +238,26 @@ button:hover{
   }
   #creditButton{
     font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  *{
+    font-size: 20px;
+  }
+  form{
+    margin-top: 10%;
+    width: 90%;
+    min-height: 290px;
+  }
+  #credit{
+    margin-top: 8%;
+  }
+  #creditText{
+    font-size: 0.6rem;
+    min-width: 60%;
+  }
+  #creditButton{
+    font-size: 0.6rem;
   }
 }
