@@ -138,6 +138,7 @@ input {
   border: none;
   font-size: 0.6rem;
   background-color: #323544;
+  caret-color: #1c90f5;
 }
 input:focus {
   outline: none;
